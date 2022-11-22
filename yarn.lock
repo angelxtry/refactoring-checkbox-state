@@ -6432,6 +6432,39 @@ __metadata:
   languageName: node
   linkType: hard
 
+"refactoring-checkbox-state@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "refactoring-checkbox-state@workspace:."
+  dependencies:
+    "@graphql-codegen/cli": ^2.13.1
+    "@svgr/webpack": ^6.3.1
+    "@tanstack/react-query": ^4.8.0
+    "@types/node": 18.7.23
+    "@types/react": 18.0.21
+    "@types/react-dom": 18.0.6
+    "@typescript-eslint/eslint-plugin": ^5.38.1
+    "@typescript-eslint/parser": ^5.38.1
+    autoprefixer: ^10.4.12
+    eslint: 8.22.0
+    eslint-config-next: ^13.0.2
+    eslint-config-prettier: ^8.5.0
+    eslint-plugin-simple-import-sort: ^8.0.0
+    eslint-plugin-unused-imports: ^2.0.0
+    graphql: ^16.6.0
+    next: ^12
+    postcss: ^8.4.17
+    prettier: ^2.7.1
+    prettier-plugin-tailwindcss: ^0.1.13
+    react: 18.2.0
+    react-dom: 18.2.0
+    tailwindcss: ^3.1.8
+    typescript: ^4.8.4
+  dependenciesMeta:
+    eslint@8.22.0:
+      unplugged: true
+  languageName: unknown
+  linkType: soft
+
 "regenerate-unicode-properties@npm:^10.1.0":
   version: 10.1.0
   resolution: "regenerate-unicode-properties@npm:10.1.0"
@@ -7076,39 +7109,6 @@ __metadata:
   checksum: 6e21c9e1b3cd5735eb2af679a99ec3efc78a14e3d4d5e3fd594e254b91cfd37185b3d1c6e41b22f53a2cdf5d1b963ce30c0fe8b78337e3fd43d0137084670a5f
   languageName: node
   linkType: hard
-
-"table-and-checkbox@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "table-and-checkbox@workspace:."
-  dependencies:
-    "@graphql-codegen/cli": ^2.13.1
-    "@svgr/webpack": ^6.3.1
-    "@tanstack/react-query": ^4.8.0
-    "@types/node": 18.7.23
-    "@types/react": 18.0.21
-    "@types/react-dom": 18.0.6
-    "@typescript-eslint/eslint-plugin": ^5.38.1
-    "@typescript-eslint/parser": ^5.38.1
-    autoprefixer: ^10.4.12
-    eslint: 8.22.0
-    eslint-config-next: ^13.0.2
-    eslint-config-prettier: ^8.5.0
-    eslint-plugin-simple-import-sort: ^8.0.0
-    eslint-plugin-unused-imports: ^2.0.0
-    graphql: ^16.6.0
-    next: ^12
-    postcss: ^8.4.17
-    prettier: ^2.7.1
-    prettier-plugin-tailwindcss: ^0.1.13
-    react: 18.2.0
-    react-dom: 18.2.0
-    tailwindcss: ^3.1.8
-    typescript: ^4.8.4
-  dependenciesMeta:
-    eslint@8.22.0:
-      unplugged: true
-  languageName: unknown
-  linkType: soft
 
 "tailwindcss@npm:^3.1.8":
   version: 3.1.8
